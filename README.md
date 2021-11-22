@@ -14,7 +14,15 @@ cd magento2-phpstorm-templates/Preferences/templates
 ln -s $(PWD)/magento2-phpstorm-templates/Preferences/templates/* ~/.config/JetBrains/<product name><version number>/templates/
 ```
 
-restart phpstorm
+**OSX**
+
+```
+git clone https://github.com/jcconde/magento2-phpstorm-templates.git
+cd magento2-phpstorm-templates/Preferences/templates
+ln -s $(PWD)/magento2-phpstorm-templates/Preferences/templates/* ~/Library/Application Support/JetBrains/<product name><version number>/templates/
+```
+
+Restart phpstorm
 
 ## Available Templates
 
