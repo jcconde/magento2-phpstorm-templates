@@ -1,2 +1,0 @@
-#set($company = "<company_name>")
-#set($userEmail = "<user_email>")
