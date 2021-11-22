@@ -6,6 +6,16 @@ This project is intended to setup useful PHPStorm Templates for Magento 2 Projec
 
 ## Installation
 
+**Linux**
+
+```
+git clone https://github.com/jcconde/magento2-phpstorm-templates.git
+cd magento2-phpstorm-templates/Preferences/templates
+ln -s $(PWD)/magento2-phpstorm-templates/Preferences/templates/* ~/.config/JetBrains/<product name><version number>/templates/
+```
+
+restart phpstorm
+
 ## Available Templates
 
 * [Live Templates](docs/liveTemplates.md)
